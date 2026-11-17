@@ -18,12 +18,12 @@ My rule of thumb: **monitor everything, automate what repeats, and prove it work
 
 | Project | What it does | Stack |
 |---|---|---|
-| [proxmox-backup-monitor](https://github.com/bisquilha/proxmox-backup-monitor) | Checks every minute that each VM is backed up on time, and restores backups at night into isolated VMs to prove they boot | Python · Proxmox · Zabbix · Grafana |
-| [grafana-glpi-alerting](https://github.com/bisquilha/grafana-glpi-alerting) | Turns Grafana alerts into service-desk tickets with a real lifecycle: follow-ups, auto-close, reopen, flood and VPN-tunnel correlation | Python · Flask · GLPI API |
-| [fleet-coverage-dashboard](https://github.com/bisquilha/fleet-coverage-dashboard) | Uses Active Directory as the source of truth and shows which PCs are missing the RMM agent, the inventory agent or the antivirus | Python · LDAP · InfluxDB · Grafana |
-| [windows-server-toolkit](https://github.com/bisquilha/windows-server-toolkit) | Read-only diagnostics and safe repairs for production Windows Servers (RDP logon hangs, zombie sessions, temp profiles, crashes) | PowerShell |
-| [self-service-app-store](https://github.com/bisquilha/self-service-app-store) | Internal app store: employees install approved software without admin rights, controlled by AD groups | .NET 8 · React · WPF · Chocolatey |
-| [sip-softphone](https://github.com/bisquilha/sip-softphone) | SIP softphone with echo cancellation, plus a self-hosted hub for directory, chat, presence, video meetings and AI call summaries | .NET 8 · SignalR · Jitsi · Whisper |
+| [proxmox-backup-monitor](https://github.com/gabrielsilva-it/proxmox-backup-monitor) | Checks every minute that each VM is backed up on time, and restores backups at night into isolated VMs to prove they boot | Python · Proxmox · Zabbix · Grafana |
+| [grafana-glpi-alerting](https://github.com/gabrielsilva-it/grafana-glpi-alerting) | Turns Grafana alerts into service-desk tickets with a real lifecycle: follow-ups, auto-close, reopen, flood and VPN-tunnel correlation | Python · Flask · GLPI API |
+| [fleet-coverage-dashboard](https://github.com/gabrielsilva-it/fleet-coverage-dashboard) | Uses Active Directory as the source of truth and shows which PCs are missing the RMM agent, the inventory agent or the antivirus | Python · LDAP · InfluxDB · Grafana |
+| [windows-server-toolkit](https://github.com/gabrielsilva-it/windows-server-toolkit) | Read-only diagnostics and safe repairs for production Windows Servers (RDP logon hangs, zombie sessions, temp profiles, crashes) | PowerShell |
+| [self-service-app-store](https://github.com/gabrielsilva-it/self-service-app-store) | Internal app store: employees install approved software without admin rights, controlled by AD groups | .NET 8 · React · WPF · Chocolatey |
+| [sip-softphone](https://github.com/gabrielsilva-it/sip-softphone) | SIP softphone with echo cancellation, plus a self-hosted hub for directory, chat, presence, video meetings and AI call summaries | .NET 8 · SignalR · Jitsi · Whisper |
 
 All projects run (or ran) in production. The public versions are generic: no company names, hosts or credentials.
 
